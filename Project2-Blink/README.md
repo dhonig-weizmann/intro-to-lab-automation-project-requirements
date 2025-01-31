@@ -21,4 +21,4 @@
  - no need to commit anything in this project
 
 ## Results
-- LED blinks when: the code is running
+- LED blinks when: 
