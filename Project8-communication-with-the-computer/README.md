@@ -29,10 +29,16 @@ conda config --set ssl_verify false
 conda create --name intro python=3.11
 conda activate intro
 ```
+
+Explanation:
+- first line - we solved a permission problem with Weizmann computers :)
+- we created an environment called `intro` that uses python version 3.11
+- we activated the environment so that any package installs we do from the prompt will be in the `intro` environment.
+
 And after that you can install packages using 
 `pip install <package-name>`
 
-In VSCode, chosse the interpreter in `intro` environment of folder.
+In order to use the conda environment in VSCode, press F1 to open the command pallette and search for "Python: choose interpreter". Click on this command and it will open all the available virtual environments. Choose the environment you just created (if you copied the above, the envionment is called `intro`).
 
 **Requirements: Python side**
 
