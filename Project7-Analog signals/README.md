@@ -21,6 +21,7 @@ The purpose of this project is to dim and increase the led light using the rotar
 - View in scope: Connect Analog 2 (dark blue) to pin 4 in arduino (LED output). Play with the times and triggers until you see the PWM change when turning the rotary.  What is the duty cycle?
 - View in voltmeter - stop scope first. See the average voltage change. What does it mean?
 - what happens when using 30Hz instead of 50Hz for the PWM?
+- paste a screenshot of the oscilloscope where both the rotary potentiometer signal and the PWM signal on the led are seen.
 
 ## Use PWM to control a servo motor
 
@@ -32,6 +33,7 @@ The purpose of this project is to dim and increase the led light using the rotar
 - turn rotary to turn the servo
 - How does the range of the duty cycle in servo motor compare to the range of the duty cycle we used in the LED? Use the scope.
 - is the range of angles in our servo the same as the range of the angles in the Servo package? change the range of values to the servo accordingly.
+- Paste a screenshot of the scope showing the maximum duty cycle of the servo (the maximum angle the servo succeeded rotating without problems)
 
 ## Exercises
 
