@@ -21,18 +21,37 @@ This number is the time in milliseconds that the LED on the device should light 
 8. The sketch should include comments explaining the functionality of each part of the code.
 9. The sketch should be written in a clean code following good programming practices.
 
+## Python environments
+Before using Python, set up the environment. In the course we use Conda, another option is to use `.venv`.
+To set up conda using the Anaconda Prompt:
+```
+conda config --set ssl_verify false
+conda create --name intro python=3.11
+conda activate intro
+```
+
+Explanation:
+- first line - we solved a permission problem with Weizmann computers :)
+- we created an environment called `intro` that uses python version 3.11
+- we activated the environment so that any package installs we do from the prompt will be in the `intro` environment.
+
+And after that you can install packages using 
+`pip install <package-name>`
+
+In order to use the conda environment in VSCode, press F1 to open the command pallette and search for "Python: choose interpreter". Click on this command and it will open all the available virtual environments. Choose the environment you just created (if you copied the above, the envionment is called `intro`).
+
 **Requirements: Python side**
 
 1. Develop a Python script that communicates with a device (like an Arduino) via a serial port.
-2. The script should have a GUI (Graphical User Interface) using PySimpleGUI library. The GUI should have a response area to display messages.
+2. The script should have a GUI (Graphical User Interface) using freesimplegui library. The GUI should have a response area to display messages.
 3. The script should be able to send a number over the serial port to the device. This number will be the time in milliseconds that the LED on the device should light up when a button is pressed. (add newline if necessary)
     - For example, if the user enters '5000' in the GUI, the LED on the device should light up for 5 seconds when the button is pressed.
-4. In arduino code, change the reply of the arduino: The device should respond with a number (0, 1, or 2) that corresponds to a specific state:
+4. Update the arduino code: The device should send a number (0, 1, or 2) that corresponds to a specific state:
     - '0': LED off
     - '1': button and LED on
     - '2': button off
 5. The script should read the response from the device and update the GUI with the corresponding message.
-6. The script should continuously read from the serial port in parallel with the PySimpleGUI main loop.
+6. The script should continuously read from the serial port in parallel with the freesimplegui main loop.
 7. The script should handle any exceptions or errors that might occur during the communication with the device.
 8. The script should include comments explaining the functionality of each part of the code.
 9. The script should be written in a clean, organized, and efficient manner following good programming practices.
