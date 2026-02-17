@@ -25,6 +25,8 @@ The purpose of this project is to dim and increase the led light using the rotar
 
 ## Use PWM to control a servo motor
 
+Documentation on Servo [here](https://wiki.seeedstudio.com/Grove-Servo/)
+
 - connect analog 2 in adalm (dark blue) to digital 7 in arduino
 - install Servo package if not already installed
 - initialize Servo package with pin 7
@@ -36,7 +38,7 @@ The purpose of this project is to dim and increase the led light using the rotar
 - Paste a screenshot of the scope showing the maximum duty cycle of the servo (the maximum angle the servo succeeded rotating without problems)
 
 ## Exercises
-
+ - Comparison of AI changes if any:
 - commit and push both .ino files and their folders to your repository
 
 

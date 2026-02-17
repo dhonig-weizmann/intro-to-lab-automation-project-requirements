@@ -30,5 +30,7 @@ answer here: __________
 - test. Does it work?
 
 ## Exercises
+ - Comparison of AI changes if any:
  - commit and upload your code in this project folder.
+
 

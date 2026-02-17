@@ -57,6 +57,7 @@ In order to use the conda environment in VSCode, press F1 to open the command pa
 9. The script should be written in a clean, organized, and efficient manner following good programming practices.
 
 ## Exercises
+ - Comparison of AI changes if any:
 Paste a screenshot of the GUI here:
 
 Paste a screenshot of the logic analyzer here that presents the time the LED is ON when pressing the button.

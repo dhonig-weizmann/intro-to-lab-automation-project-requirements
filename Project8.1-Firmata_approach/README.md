@@ -4,6 +4,8 @@
 1. Understand the firmataexpress package and its usage in actual project
 2. Understand the use of jupyter notebooks for exploration
 
+**IMPORTANT:** the Jupyter notebook is useful for exploration, and the notebook file is a demonstration only. The project should be in a regular *.py file.
+
 ## Instructions
 1. Install the firmataexpress package in the Arduino IDE. upload the firmataexpress sketch to the Arduino board.
 2. Install the [pymata4 package](https://mryslab.github.io/pymata4/install_pymata4/) in the python environment - pip install pymata4 
@@ -24,6 +26,8 @@
 
 
 ## Exercises
+Comparison of AI changes if any:
+
 Paste a screenshot of the GUI here:
 
 Paste a screenshot of the logic analyzer here that presents the time the LED is ON when pressing the button.

@@ -3,7 +3,7 @@
 1. Comparing different types of time overhead
 
 ## write a program that does the following:
-- copy your code from project 3 to projet 4
+- copy your code from project 3 to project 4
 - Blink an LED on pin 13 with delay 1 ms
 - Blink an LED on pin 12 with delay 1 ms, in this case there isn't actually a LED connected to this pin, but we can still use it to measure the overhead of the digitalWrite() function, using the logic analyzer.
 - both leds should be HIGH, then delay, then both leds LOW, then delay
@@ -27,7 +27,9 @@ enter the delay in usec here:  __________
 ## Exercise 3
 - Use chatGPT or similar to find how to write simultaneously to both pins. Measure the delay between the pins now. 
 - Paste a screenshot below.
+- Comparison of AI changes if any:
 
 ## Git
+ - Comparison of AI changes if any:
  - Commit and push the two programs and the README into the repository
 
