@@ -38,7 +38,7 @@ Explanation:
 And after that you can install packages using 
 `pip install <package-name>`
 
-In order to use the conda environment in VSCode, press F1 to open the command pallette and search for "Python: choose interpreter". Click on this command and it will open all the available virtual environments. Choose the environment you just created (if you copied the above, the envionment is called `intro`).
+In order to use the conda environment in VSCode, open a python file and then press F1 to open the command pallette and search for "Python: choose interpreter". Click on this command and it will open all the available virtual environments. Choose the environment you just created (if you copied the above, the envionment is called `intro`).
 
 **Requirements: Python side**
 
