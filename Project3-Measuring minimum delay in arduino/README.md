@@ -26,7 +26,7 @@ run code:
 
 - connect ADALM2000 to grove kit:
   - gnd in ADALM to GND in arduino (black color is used as a standard for GND)
-  - digital pin 0 (solid pink) to pin13 in arduino (why?)
+  - digital pin 0 (solid pink) to pin4 in arduino (why?)
 - open scopy program
 - connect to ADALM2000
 - open scopy logic analyzer
