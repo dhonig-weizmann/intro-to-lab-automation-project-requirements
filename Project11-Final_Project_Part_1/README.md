@@ -12,8 +12,12 @@
     - Buzzer effector
     - connect the servo motor to the board
 2. There are two options for packages:  
-- **Recommended**: Use the [Arduino SensorKit](https://sensorkit.arduino.cc/) library (this includes all the hardware in the kit).
-- You can also use the grove packages as recommended in the [Grove documentation](https://wiki.seeedstudio.com/Grove-Beginner-Kit-For-Arduino/#hardware-overview),
+- **Recommended**: Use the [Arduino SensorKit](https://sensorkit.arduino.cc/) library (this includes all the hardware in the kit). It also has great examples.
+- You can also use the grove packages as recommended in the [Grove documentation](https://wiki.seeedstudio.com/Grove-Beginner-Kit-For-Arduino/#hardware-overview).
+
+## Documentation
+- More information on the accelerometer, OLED, and Buzzer [online](https://wiki.seeedstudio.com/Grove-Beginner-Kit-For-Arduino/) or in the attached [file](../Grove-Beginner-Kit-For-ArduinoPDF.pdf).
+- More information on the servo motor, and other hardware in the education add on pack [here](https://wiki.seeedstudio.com/Grove-Beginner-Kit-for-Arduino-education-pack/). 
 
 ## Requirements
 Build a system that: 
